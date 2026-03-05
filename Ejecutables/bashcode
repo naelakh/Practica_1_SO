@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+
+echo "Enter capture time (seconds):"
+read CAPTURE_TIME
+
+LOG_FILE="mqtt_capture.log"
+
+# Run MQTT program in background
+./mqtt_program > "$LOG_FILE" 2>&1 &
+PID=$!
+
+echo "Process started with PID: $PID"
+
+SECONDS_PASSED=0
+
+while kill -0 $PID 2>/dev/null; do
+    if [ $SECONDS_PASSED -ge $CAPTURE_TIME ]; then
+        echo "Stopping process..."
+        kill -SIGINT $PID
+        sleep 2
+        
+        if kill -0 $PID 2>/dev/null; then
+            kill -SIGTERM $PID
+            sleep 2
+        fi
+        
+        if kill -0 $PID 2>/dev/null; then
+            kill -SIGKILL $PID
+        fi
+        
+        break
+    fi
+    
+    sleep 1
+    SECONDS_PASSED=$((SECONDS_PASSED+1))
+done
+
+echo "Executing Python analysis..."
+python3 plot_mqtt.py
+

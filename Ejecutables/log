@@ -1,0 +1,18 @@
+[MQTT] Conectando a tcp://broker.emqx.io:1883 con client_id=cpp_sub_987924565...
+[MQTT] Subscribing: sensor/data/sen55 (qos=[MQTT] Conectado. Cause: connect onSuccess called
+0)...
+[MQTT] OK subscribed: sensor/data/sen55
+[MQTT] Subscribing: sensor/data/gas_sensor (qos=0)...
+[MQTT] OK subscribed: sensor/data/gas_sensor
+[MQTT] Escuchando... (Ctrl+C para salir)
+
+[MSG] Topic: sensor/data/sen55
+ Payload: {"MassConcentrationPm1p0":10.20,"MassConcentrationPm2p5":10.90,"MassConcentrationPm4p0":11.10,"MassConcentrationPm10p0":11.10,"AmbientHumidity":50.83,"AmbientTemperature":21.07,"VocIndex":335.00,"NoxIndex":1.00}
+
+[MSG] Topic: sensor/data/gas_sensor
+ Payload: {"GM102B":43.00,"GM302B":69.00,"GM502B":81.00,"GM702B":221.00}
+
+[MQTT] Cerrando...
+[MQTT] Unsubscribe: sensor/data/sen55
+[MQTT] Unsubscribe: sensor/data/gas_sensor
+[MQTT] Desconectado.
