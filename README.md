@@ -54,7 +54,7 @@ Bash
 Python 3
 
 ### Bibliotecas de Python necesarias  
--`matplotlib`  
+- `matplotlib`  
 - json (biblioteca estándar de Python)   
 
 ### Instalar la biblioteca necesaria:  
