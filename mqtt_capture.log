@@ -1,4 +1,4 @@
-[MQTT] Conectando a tcp://broker.emqx.io:1883 con client_id=cpp_sub_588765289...
+[MQTT] Conectando a tcp://broker.emqx.io:1883 con client_id=cpp_sub_1926822221...
 [MQTT] Conectado. Cause: connect onSuccess called
 [MQTT] Subscribing: sensor/data/sen55 (qos=0)...
 [MQTT] OK subscribed: sensor/data/sen55
@@ -7,60 +7,72 @@
 [MQTT] Escuchando... (Ctrl+C para salir)
 
 [MSG] Topic: sensor/data/sen55
- Payload: {"MassConcentrationPm1p0":17.30,"MassConcentrationPm2p5":18.60,"MassConcentrationPm4p0":18.90,"MassConcentrationPm10p0":19.10,"AmbientHumidity":49.37,"AmbientTemperature":23.18,"VocIndex":101.00,"NoxIndex":1.00}
+ Payload: {"MassConcentrationPm1p0":25.70,"MassConcentrationPm2p5":26.90,"MassConcentrationPm4p0":27.00,"MassConcentrationPm10p0":27.00,"AmbientHumidity":51.11,"AmbientTemperature":23.50,"VocIndex":90.00,"NoxIndex":1.00}
 
 [MSG] Topic: sensor/data/gas_sensor
- Payload: {"GM102B":46.00,"GM302B":71.00,"GM502B":84.00,"GM702B":191.00}
+ Payload: {"GM102B":49.00,"GM302B":72.00,"GM502B":82.00,"GM702B":206.00}
 
 [MSG] Topic: sensor/data/sen55
- Payload: {"MassConcentrationPm1p0":17.30,"MassConcentrationPm2p5":18.60,"MassConcentrationPm4p0":18.90,"MassConcentrationPm10p0":19.10,"AmbientHumidity":49.33,"AmbientTemperature":23.18,"VocIndex":100.00,"NoxIndex":1.00}
+ Payload: {"MassConcentrationPm1p0":26.20,"MassConcentrationPm2p5":27.60,"MassConcentrationPm4p0":27.60,"MassConcentrationPm10p0":27.60,"AmbientHumidity":51.07,"AmbientTemperature":23.50,"VocIndex":96.00,"NoxIndex":1.00}
 
 [MSG] Topic: sensor/data/gas_sensor
- Payload: {"GM102B":46.00,"GM302B":71.00,"GM502B":85.00,"GM702B":190.00}
+ Payload: {"GM102B":49.00,"GM302B":72.00,"GM502B":82.00,"GM702B":206.00}
 
 [MSG] Topic: sensor/data/sen55
- Payload: {"MassConcentrationPm1p0":16.90,"MassConcentrationPm2p5":18.00,"MassConcentrationPm4p0":18.30,"MassConcentrationPm10p0":18.40,"AmbientHumidity":49.33,"AmbientTemperature":23.18,"VocIndex":101.00,"NoxIndex":1.00}
+ Payload: {"MassConcentrationPm1p0":26.30,"MassConcentrationPm2p5":27.60,"MassConcentrationPm4p0":27.60,"MassConcentrationPm10p0":27.60,"AmbientHumidity":51.06,"AmbientTemperature":23.50,"VocIndex":100.00,"NoxIndex":1.00}
 
 [MSG] Topic: sensor/data/gas_sensor
- Payload: {"GM102B":46.00,"GM302B":71.00,"GM502B":85.00,"GM702B":191.00}
+ Payload: {"GM102B":50.00,"GM302B":71.00,"GM502B":83.00,"GM702B":206.00}
 
 [MSG] Topic: sensor/data/sen55
- Payload: {"MassConcentrationPm1p0":17.30,"MassConcentrationPm2p5":18.30,"MassConcentrationPm4p0":18.40,"MassConcentrationPm10p0":18.40,"AmbientHumidity":49.29,"AmbientTemperature":23.18,"VocIndex":100.00,"NoxIndex":1.00}
+ Payload: {"MassConcentrationPm1p0":26.40,"MassConcentrationPm2p5":27.70,"MassConcentrationPm4p0":27.70,"MassConcentrationPm10p0":27.70,"AmbientHumidity":51.08,"AmbientTemperature":23.50,"VocIndex":100.00,"NoxIndex":1.00}
 
 [MSG] Topic: sensor/data/gas_sensor
- Payload: {"GM102B":47.00,"GM302B":71.00,"GM502B":85.00,"GM702B":191.00}
+ Payload: {"GM102B":49.00,"GM302B":72.00,"GM502B":83.00,"GM702B":206.00}
 
 [MSG] Topic: sensor/data/sen55
- Payload: {"MassConcentrationPm1p0":17.70,"MassConcentrationPm2p5":18.60,"MassConcentrationPm4p0":18.60,"MassConcentrationPm10p0":18.60,"AmbientHumidity":49.35,"AmbientTemperature":23.18,"VocIndex":100.00,"NoxIndex":1.00}
+ Payload: {"MassConcentrationPm1p0":26.60,"MassConcentrationPm2p5":27.90,"MassConcentrationPm4p0":27.90,"MassConcentrationPm10p0":27.90,"AmbientHumidity":51.07,"AmbientTemperature":23.50,"VocIndex":100.00,"NoxIndex":1.00}
 
 [MSG] Topic: sensor/data/gas_sensor
- Payload: {"GM102B":46.00,"GM302B":71.00,"GM502B":85.00,"GM702B":192.00}
+ Payload: {"GM102B":49.00,"GM302B":72.00,"GM502B":82.00,"GM702B":206.00}
 
 [MSG] Topic: sensor/data/sen55
- Payload: {"MassConcentrationPm1p0":17.40,"MassConcentrationPm2p5":18.20,"MassConcentrationPm4p0":18.30,"MassConcentrationPm10p0":18.30,"AmbientHumidity":49.39,"AmbientTemperature":23.18,"VocIndex":100.00,"NoxIndex":1.00}
+ Payload: {"MassConcentrationPm1p0":26.60,"MassConcentrationPm2p5":27.90,"MassConcentrationPm4p0":27.90,"MassConcentrationPm10p0":27.90,"AmbientHumidity":51.06,"AmbientTemperature":23.51,"VocIndex":101.00,"NoxIndex":1.00}
 
 [MSG] Topic: sensor/data/gas_sensor
- Payload: {"GM102B":46.00,"GM302B":71.00,"GM502B":84.00,"GM702B":192.00}
+ Payload: {"GM102B":49.00,"GM302B":72.00,"GM502B":83.00,"GM702B":207.00}
 
 [MSG] Topic: sensor/data/sen55
- Payload: {"MassConcentrationPm1p0":17.10,"MassConcentrationPm2p5":18.00,"MassConcentrationPm4p0":18.00,"MassConcentrationPm10p0":18.00,"AmbientHumidity":49.36,"AmbientTemperature":23.18,"VocIndex":100.00,"NoxIndex":1.00}
+ Payload: {"MassConcentrationPm1p0":26.00,"MassConcentrationPm2p5":27.30,"MassConcentrationPm4p0":27.30,"MassConcentrationPm10p0":27.30,"AmbientHumidity":51.07,"AmbientTemperature":23.51,"VocIndex":102.00,"NoxIndex":1.00}
 
 [MSG] Topic: sensor/data/gas_sensor
- Payload: {"GM102B":46.00,"GM302B":71.00,"GM502B":85.00,"GM702B":191.00}
+ Payload: {"GM102B":49.00,"GM302B":72.00,"GM502B":82.00,"GM702B":206.00}
 
 [MSG] Topic: sensor/data/sen55
- Payload: {"MassConcentrationPm1p0":17.00,"MassConcentrationPm2p5":17.90,"MassConcentrationPm4p0":17.90,"MassConcentrationPm10p0":17.90,"AmbientHumidity":49.28,"AmbientTemperature":23.18,"VocIndex":100.00,"NoxIndex":1.00}
+ Payload: {"MassConcentrationPm1p0":25.80,"MassConcentrationPm2p5":27.10,"MassConcentrationPm4p0":27.10,"MassConcentrationPm10p0":27.10,"AmbientHumidity":51.09,"AmbientTemperature":23.51,"VocIndex":102.00,"NoxIndex":1.00}
 
 [MSG] Topic: sensor/data/gas_sensor
- Payload: {"GM102B":47.00,"GM302B":71.00,"GM502B":84.00,"GM702B":192.00}
+ Payload: {"GM102B":48.00,"GM302B":72.00,"GM502B":83.00,"GM702B":206.00}
+
+[MSG] Topic: sensor/data/sen55
+ Payload: {"MassConcentrationPm1p0":25.70,"MassConcentrationPm2p5":27.00,"MassConcentrationPm4p0":27.00,"MassConcentrationPm10p0":27.00,"AmbientHumidity":51.11,"AmbientTemperature":23.51,"VocIndex":101.00,"NoxIndex":1.00}
+
+[MSG] Topic: sensor/data/gas_sensor
+ Payload: {"GM102B":49.00,"GM302B":72.00,"GM502B":82.00,"GM702B":205.00}
+
+[MSG] Topic: sensor/data/sen55
+ Payload: {"MassConcentrationPm1p0":25.50,"MassConcentrationPm2p5":26.80,"MassConcentrationPm4p0":26.80,"MassConcentrationPm10p0":26.80,"AmbientHumidity":51.13,"AmbientTemperature":23.51,"VocIndex":99.00,"NoxIndex":1.00}
+
+[MSG] Topic: sensor/data/gas_sensor
+ Payload: {"GM102B":49.00,"GM302B":72.00,"GM502B":83.00,"GM702B":204.00}
+
+[MSG] Topic: sensor/data/sen55
+ Payload: {"MassConcentrationPm1p0":25.70,"MassConcentrationPm2p5":26.90,"MassConcentrationPm4p0":26.90,"MassConcentrationPm10p0":26.90,"AmbientHumidity":51.16,"AmbientTemperature":23.51,"VocIndex":95.00,"NoxIndex":1.00}
+
+[MSG] Topic: sensor/data/gas_sensor
+ Payload: {"GM102B":48.00,"GM302B":72.00,"GM502B":82.00,"GM702B":205.00}
 
 [MQTT] Cerrando...
 [MQTT] Unsubscribe: sensor/data/sen55
-
-[MSG] Topic: sensor/data/sen55
- Payload: {"MassConcentrationPm1p0":16.80,"MassConcentrationPm2p5":17.70,"MassConcentrationPm4p0":17.70,"MassConcentrationPm10p0":17.70,"AmbientHumidity":49.19,"AmbientTemperature":23.18,"VocIndex":101.00,"NoxIndex":1.00}
-
-[MSG] Topic: sensor/data/gas_sensor
- Payload: {"GM102B":46.00,"GM302B":70.00,"GM502B":85.00,"GM702B":191.00}
 [MQTT] Unsubscribe: sensor/data/gas_sensor
 [MQTT] Desconectado.

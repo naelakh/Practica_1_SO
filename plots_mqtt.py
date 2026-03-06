@@ -107,19 +107,11 @@ def grafica_ASCII(values):
 
 def main():
 
-    print("[1/4] Leer archivo de registro")
-
     lineas = leer_log_file()
-
-    print("[2/4] Exttaccion de valores numericos")
 
     values = extraer_values(lineas)
 
-    print("[3/4] Generado PNG")
-
     crear_PNG(values)
-
-    print("[4/4] Generando ASCII grafico")
 
     grafica_ASCII(values)
 
