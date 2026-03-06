@@ -30,6 +30,7 @@ the program uses multiple Operating Systems concepts such as:
 
 ## 2. Repository structure
 
+```
 Practica_1_SO
 │
 ├── Ejecutables/
@@ -40,6 +41,7 @@ Practica_1_SO
 ├── plots_mqtt.py
 ├── mqtt_capture.log
 └── README.md
+```
 
 ---
 
