@@ -103,7 +103,7 @@ Enter capture time (seconds): 30
   - `SIGINT`
   - `SIGTERM`
   - `SIGKILL` (if necessary)
-- 6.the python code is executed automatically 
+- the python code is executed automatically 
 
 ---
 
@@ -157,9 +157,9 @@ Ensure the MQTT subscriber executable is located in the project directory and ha
 ---
 
 ## 10. Authors
-**Naela Khaldi** y **Zineb Hamman**
-Operating Systems
-Academic Year 2025/2026
+- **Naela Khaldi** y **Zineb Hamman**
+- Operating Systems
+- Academic Year 2025/2026
 
 ---
 
