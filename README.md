@@ -78,15 +78,15 @@ The Bash script captures this output and stores it in a log file for later proce
 ---
 
 ## 5. Running the Project
-### 1 Give execution permission to the Bash script
+### 1. Give execution permission to the Bash script
 ```bash
 chmod +x capture_mqtt.sh
 ```
-### 2 Run the capture script
+### 2. Run the capture script
 ```bash
 ./capture_mqtt.sh
 ```
-### 3 Enter capture time (in seconds)
+### 3. Enter capture time (in seconds)
 Example:
 ```
 Enter capture time (seconds): 30
@@ -95,11 +95,11 @@ Enter capture time (seconds): 30
 ---
 
 ## 6. Program Execution Flow
-- 1. The bash script executes the MQTT subscriber program
-- 2. The programs output is directed to `capture_mqtt.log`
-- 3. The script get the programs PID using `$!`
-- 4. The script keeps checking if the program is still active using `kill-0`
-- 5. After the chosen time the script stopes the program using :
+- 1.The bash script executes the MQTT subscriber program
+- 2.The programs output is directed to `capture_mqtt.log`
+- 3.The script get the programs PID using `$!`
+- 4.The script keeps checking if the program is still active using `kill-0`
+- 5.After the chosen time the script stopes the program using :
   - `SIGINT`
   - `SIGTERM`
   - `SIGKILL` (if necessary)
