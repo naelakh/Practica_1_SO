@@ -10,21 +10,21 @@ the QMTT subscriber prints the data directly into the terminal without storing i
 
 the project solves the problem by:
 
--Capturing the program output autumatically
--Storing the output in a log file
--Processing the data from the log file
--Extracts the **JSON** payload 
--Visualises the data as:
-  -PNG graph
-  -ACSII graph in the terminal
+- Capturing the program output autumatically
+- Storing the output in a log file
+- Processing the data from the log file
+- Extracts the **JSON** payload 
+- Visualises the data as:
+  - PNG graph
+  - ACSII graph in the terminal
 
 the program uses multiple Operating Systems concepts such as:
--Process manigment 
--Monitoring processes
--Process termination
--Log processing
--Data visualization with **Python**
--output redirection in **bash**
+- Process manigment 
+- Monitoring processes
+- Process termination
+- Log processing
+- Data visualization with **Python**
+- output redirection in **bash**
 
 ---
 
@@ -46,16 +46,16 @@ Practica_1_SO
 ---
 
 ## 3. System Requirements
--Operating system: 
+- Operating system: 
 Linux (tested on Ubuntu 22.04)
--Shell :
+- Shell :
 Bash
--Python : 
+- Python : 
 Python 3
 
 ### Required Python libraries
 -`matplotlib`
--json (standard Python library)
+- json (standard Python library)
 
 ### Install required library:
 ```in bash
@@ -132,7 +132,7 @@ mqtt_capture.log
 plots/
 ```
 
-- an ASCII graph displayed in the terminal
+- An ASCII graph displayed in the terminal
 
 ---
 
@@ -165,15 +165,7 @@ Academic Year 2025/2026
 
 ## 11. Notes
 
-the project was developed as part of an Operating Systems practice assignment focusing on automation, process control, and data visualization.
-
-
-
-
-
-
-
-
+The project was developed as part of an Operating Systems practice assignment focusing on automation, process control, and data visualization.
 
 
 
