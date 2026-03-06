@@ -95,44 +95,44 @@ Enter capture time (seconds): 30
 ---
 
 ## 6. Program Execution Flow
--1. The bash script executes the MQTT subscriber program
--2. The programs output is directed to `capture_mqtt.log`
--3. The script get the programs PID using `$!`
--4. The script keeps checking if the program is still active using `kill-0`
--5. After the chosen time the script stopes the program using :
+- 1. The bash script executes the MQTT subscriber program
+- 2. The programs output is directed to `capture_mqtt.log`
+- 3. The script get the programs PID using `$!`
+- 4. The script keeps checking if the program is still active using `kill-0`
+- 5. After the chosen time the script stopes the program using :
   - `SIGINT`
   - `SIGTERM`
   - `SIGKILL` (if necessary)
--6.the python code is executed automatically 
+- 6.the python code is executed automatically 
 
 ---
 
 ## 7.Python Data Processing
 the Python script:
 
--1. Reads the `mqtt_capture.log` file
--2. Extracts the JSON payload data
--3. Parses sensor values
--4. Generates graphs of the stored data:
-  -A PNG graph saved on `/plots` directory
-  -An ASCII graph displayed directly in the terminal 
+- 1. Reads the `mqtt_capture.log` file
+- 2. Extracts the JSON payload data
+- 3. Parses sensor values
+- 4. Generates graphs of the stored data:
+  - A PNG graph saved on `/plots` directory
+  - An ASCII graph displayed directly in the terminal 
 
 ---
 
 ## 8. Example Output:
 After running the program successfully, the following outputs are produced:
 
--A log file containing captured MQTT messages
+- A log file containing captured MQTT messages
 ```
 mqtt_capture.log
 ```
 
--Generated graphs in:
+- Generated graphs in:
 ```
 plots/
 ```
 
--an ASCII graph displayed in the terminal
+- an ASCII graph displayed in the terminal
 
 ---
 
