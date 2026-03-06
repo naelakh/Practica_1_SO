@@ -1,4 +1,4 @@
-# **Práctica 1**: Captura y visualización de datos MQTT
+# Práctica 1: Captura y visualización de datos MQTT
 ##Sistemas operativos: **Proyecto Bash y Python**
 
 ---
