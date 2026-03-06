@@ -30,24 +30,39 @@ the program uses multiple Operating Systems concepts such as:
 
 ## 2. Repository structure
 
+Practica_1_SO
+│
+├── Ejecutables/
+├── plots/
+├── scripts/
+├── src/
+├── capture_mqtt.sh
+├── plots_mqtt.py
+├── mqtt_capture.log
+└── README.md
+
 ---
+
 ## 3. System Requirements
--Operating system: Linux (tested on Ubuntu 22.04)
--shell : bash
--python : python 3
+-Operating system: 
+Linux (tested on Ubuntu 22.04)
+-Shell :
+Bash
+-Python : 
+Python 3
 
 ### Required Python libraries
 -`matplotlib`
 -json (standard Python library)
 
-### Install required libraries
+### Install required library:
 ```in bash
 pip install matplotlib
 ```
 
 ---
 
-## 4. MQTT Data Topics
+## 4. MQTT Data Topics:
 The system captures data from the following MQTT topics:
 `sensor/data/gas_sensor` and `sensor/data/sen55`
 
@@ -62,11 +77,11 @@ The Bash script captures this output and stores it in a log file for later proce
 
 ## 5. Running the Project
 ### 1 Give execution permission to the Bash script
-```
+```bash
 chmod +x capture_mqtt.sh
 ```
 ### 2 Run the capture script
-```
+```bash
 ./capture_mqtt.sh
 ```
 ### 3 Enter capture time (in seconds)
@@ -78,38 +93,43 @@ Enter capture time (seconds): 30
 ---
 
 ## 6. Program Execution Flow
-1 the bash script executes the MQTT program
-2 the programs output is directed to capture_mqtt.log
-3 the script get the programs PID using $!
-4.the script keeps checking if the program is still active using kill-0
-5. after the chosen time the script stopes the program using :
--`SIGINT`
--`SIGTERM`
--`SIGKILL` (if nececarry)
-6.the python code is executed automatically 
+-1. The bash script executes the MQTT subscriber program
+-2. The programs output is directed to `capture_mqtt.log`
+-3. The script get the programs PID using `$!`
+-4. The script keeps checking if the program is still active using `kill-0`
+-5. After the chosen time the script stopes the program using :
+  - `SIGINT`
+  - `SIGTERM`
+  - `SIGKILL` (if necessary)
+-6.the python code is executed automatically 
 
 ---
 
 ## 7.Python Data Processing
-1 the script reads the mqtt_capture.log life
-2 extracts the json payload data
-3 parses sensor values
-4 generates graphs of the stored data:
--a png graph saved on /plots directory
--a ASCII graph displayed directly in the terminal 
+the Python script:
+
+-1. Reads the `mqtt_capture.log` file
+-2. Extracts the JSON payload data
+-3. Parses sensor values
+-4. Generates graphs of the stored data:
+  -A PNG graph saved on `/plots` directory
+  -An ASCII graph displayed directly in the terminal 
 
 ---
 
 ## 8. Example Output:
 After running the program successfully, the following outputs are produced:
+
 -A log file containing captured MQTT messages
 ```
 mqtt_capture.log
 ```
--Generated graphs in the following directory:
+
+-Generated graphs in:
 ```
 plots/
 ```
+
 -an ASCII graph displayed in the terminal
 
 ---
@@ -121,19 +141,21 @@ Install required library:
 ```bash
 pip install matplotlib
 ```
+
 ### Permission denied when running the script
+
 Give execution permission:
 ```bash
 chmod +x capture_mqtt.sh
 ```
+
 ### MQTT executable not running
 Ensure the MQTT subscriber executable is located in the project directory and has execution permission
 
 ---
 
 ## 10. Authors
-zineb
-naela
+**Naela Khaldi** y **Zineb Hamman**
 Operating Systems
 Academic Year 2025/2026
 
@@ -141,7 +163,7 @@ Academic Year 2025/2026
 
 ## 11. Notes
 
-the project was developed as part of an Operating Systems practice assignment focusing on automation, process control, and data visualization
+the project was developed as part of an Operating Systems practice assignment focusing on automation, process control, and data visualization.
 
 
 
